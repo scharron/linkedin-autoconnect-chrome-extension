@@ -27,7 +27,7 @@ var addPeopleFromSearchPage = function() {
 
   var clickSendNowButtonIfAvailable = function() {
     var buttonSendNow = document.querySelector(
-      "div.send-invite__actions > button.artdeco-button.artdeco-button--3.ml1"
+      "div.send-invite > div > button.artdeco-button.artdeco-button--3.ml1"
     );
 
     if (buttonSendNow) buttonSendNow.click();
